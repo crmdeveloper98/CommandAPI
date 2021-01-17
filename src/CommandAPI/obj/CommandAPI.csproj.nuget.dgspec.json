@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tutorials\\CommandAPISolution\\src\\commandAPI\\CommandAPI.csproj": {}
+    "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {}
   },
   "projects": {
-    "D:\\tutorials\\CommandAPISolution\\src\\commandAPI\\CommandAPI.csproj": {
+    "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tutorials\\CommandAPISolution\\src\\commandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "D:\\tutorials\\CommandAPISolution\\src\\commandAPI\\CommandAPI.csproj",
+        "projectPath": "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\Arthur\\.nuget\\packages\\",
-        "outputPath": "D:\\tutorials\\CommandAPISolution\\src\\commandAPI\\obj\\",
+        "outputPath": "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
