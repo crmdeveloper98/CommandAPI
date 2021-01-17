@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qrVc5Gbkd5sCf2ruzdwFzanEpE1fp3/bAgWgST+KjP2Hzt81X1DQV2o5bw1jmgREfMqpsOzqhTqH32NP2R7YXQ==",
+  "dgSpecHash": "jlLMOPcYyfSYS3N3+8w6TYqKb+P+bYZ42O8W2eFCnEfB7Po2Hu8cPfmugdPSnZ6M2zVmfAOHnm7pV4Reksedsg==",
   "success": true,
-  "projectFilePath": "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+  "projectFilePath": "D:\\tutorials\\CommandAPISolution\\src\\commandAPI\\CommandAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

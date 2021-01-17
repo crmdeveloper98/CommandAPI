@@ -5634,11 +5634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tutorials\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+      "projectUniqueName": "D:\\Tutorials\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
       "projectName": "CommandAPI.Tests",
-      "projectPath": "D:\\tutorials\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+      "projectPath": "D:\\Tutorials\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
       "packagesPath": "C:\\Users\\Arthur\\.nuget\\packages\\",
-      "outputPath": "D:\\tutorials\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
+      "outputPath": "D:\\Tutorials\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5662,8 +5662,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
-              "projectPath": "D:\\tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
+            "D:\\Tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+              "projectPath": "D:\\Tutorials\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
             }
           }
         }
@@ -5710,6 +5710,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
