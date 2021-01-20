@@ -13,6 +13,9 @@ using CommandAPI.Dtos;
 
 namespace CommandAPI.Tests
 {
+    /// <summary>
+    /// Commands Controller Tests
+    /// </summary>
     public class CommandsControllerTests : IDisposable
     {
         Mock<ICommandAPIRepo> mockRepo;
