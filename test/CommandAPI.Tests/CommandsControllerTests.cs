@@ -23,6 +23,9 @@ namespace CommandAPI.Tests
         MapperConfiguration configuration;
         IMapper mapper;
 
+        /// <summary>
+        /// Command test constructor
+        /// </summary>
         public CommandsControllerTests()
         {
             mockRepo = new Mock<ICommandAPIRepo>();
