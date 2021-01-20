@@ -137,3 +137,5 @@ D:\Tutorials\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\AutoMappe
 D:\Tutorials\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\Tutorials\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Tutorials\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Tutorials\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Castle.Core.dll
+D:\Tutorials\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net5.0\Moq.dll
