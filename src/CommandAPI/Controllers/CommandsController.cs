@@ -32,6 +32,11 @@ namespace CommandAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commandItems));
         }
 
+        /// <summary>
+        /// Get by Id Command
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id:int}", Name="GetCommandById")]
         public ActionResult<CommandReadDto> GetCommandById(int id)
         {
@@ -43,6 +48,11 @@ namespace CommandAPI.Controllers
             return Ok(_mapper.Map<CommandReadDto>(commandItem));
         }
 
+        /// <summary>
+        /// Create command
+        /// </summary>
+        /// <param name="commandCreateDto"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult <CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto)
         {
@@ -54,6 +64,12 @@ namespace CommandAPI.Controllers
             return CreatedAtRoute(nameof(GetCommandById),new { Id = commandReadDto.Id}, commandReadDto);
         }
 
+        /// <summary>
+        /// Update command
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="commandUpdateDto"></param>
+        /// <returns></returns>
         [HttpPut("{id:int}")]
         public ActionResult UpdateCommand(int id, CommandUpdateDto commandUpdateDto)
         {
@@ -68,6 +84,12 @@ namespace CommandAPI.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Partial update command
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="patchDoc"></param>
+        /// <returns></returns>
         [HttpPatch("{id:int}")]
         public ActionResult PartialCommandUpdate(int id, JsonPatchDocument<CommandUpdateDto> patchDoc)
         {
@@ -88,6 +110,11 @@ namespace CommandAPI.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Delete command
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id:int}")]
         public ActionResult DeleteCommand(int id)
         {
