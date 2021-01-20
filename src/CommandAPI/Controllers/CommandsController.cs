@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CommandAPI.Controllers
 {
+    /// <summary>
+    /// Commands controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class CommandsController: ControllerBase
